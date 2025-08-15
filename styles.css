@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+    --azul: #007bff;
+    --verde: #28c76f;
+    --cinza: #f8f9fa;
+    --texto: #1c1c1c;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cinza);
+    color: var(--texto);
+}
+
+header {
+    background-color: var(--azul);
+}
+
+.nav-link { color: #fff; font-weight: 600; }
+
+.inicio-fundo {
+    background-image: url('img/logo-2.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.botao-inicio {
+    background-color: var(--verde);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+}
+
+.display-4 {
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px #000;
+}
+
+#telemedicina {
+    padding: 5rem 0;
+    background: url('img/pattern-tech.png') top right no-repeat;
+    background-size: contain;
+}
+
+h2 { font-family: 'Roboto Slab', serif; color: var(--azul); }
+
+#galeria { background-color: #fff; }
+
+#contato {
+    background-image: url('img/fundo-consulta.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.formulario button { background-color: var(--azul); color: #fff; }
+.form-control { background-color: #e9ecef; border: none; }
